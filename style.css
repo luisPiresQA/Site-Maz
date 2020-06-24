@@ -18,27 +18,44 @@ header{
     display: block;
     margin-left: 20px;
     float: left;
-
-
 }
 
 #menu {
     float: right;
-    margin-top: 70px;
     margin-right: 20px;
+    margin-top: 70px;
 }
 
 #menu a{
     text-decoration: none;
     color: black;
-    padding: 72px;
+    padding: 30px;
 }
 
 #menu a:hover{
     background-color: #aaaaaa;
-    color: white
+    color: whitesmoke
 
 }
 #dicas {
     clear: both;
+}
+
+
+
+#form{
+        background:black;
+        color: white;
+        width: 70%;
+        height: 180px;
+        margin-left: 40px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        align-items: center;
+}
+
+/*Classes*/
+
+.container{
+    background-color: black;
 }
