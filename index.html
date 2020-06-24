@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maz | Decoração feita à mão</title>
-    <link rel="stylesheet" href="public/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="public/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <srcipt src="public/js/jquery.js"></srcipt>
-    <srcipt src="public/js/bootstrap.bundle.min.js"></srcipt>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/jquery.js"></script>
+
 </head>
 
 <body>
@@ -18,23 +19,39 @@
                 <a href="index.html"><img src="public/images/logo.png">
             </div>
             <div id="menu">
-                <a href="depois">Para Plantas</a>
-                <a href="depois">Para Parede</a>
-                <a href="depois">Acessórios</a>
+                <a href="plantas.html">Para Plantas</a>
+                <a href="parede.html">Para Parede</a>
+                <a href="acessorios.html">Acessórios</a>
                 <a href="persolnalizados.html">Personalizados</a>
             </div>
         </div>
     </header>
-
-   
-
-
-    <div id="dicas">
-        <h1>| Dicas de decoração |</h1>
-
+    <div id="container">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="public/images/foto1.jpg" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="public/images/hanger1.JPG" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="public/images/logo.png" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
     </div>
 
     <footer>
+
         <div id="rodape">
             <a href="depois">Sobre a Maz</a>
             <a href="depois">Troca e Devoluções</a>
